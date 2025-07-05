@@ -1,0 +1,45 @@
+.resultado {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+}
+
+.resultado h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4f46e5;
+  padding-bottom: 0.5rem;
+}
+
+.resultado p {
+  margin: 0.5rem 0;
+}
+
+.resultado p strong {
+  font-weight: bold;
+}
+
+.resultado .valor-azul {
+  color: #4f46e5;
+}
+
+.resultado .valor-verde {
+  color: #10b981;
+}
+
+.resultado .valor-amarelo {
+  color: #facc15;
+}
+
+.resultado .valor-red {
+    color: rgb(255, 0, 0);
+}
+
+.grafico-wrapper {
+  background: #111827;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}

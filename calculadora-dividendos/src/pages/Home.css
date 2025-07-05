@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-container h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.app-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.app-list li {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 15px 25px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.app-list li:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-5px);
+}
+
+.app-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: block;
+}
